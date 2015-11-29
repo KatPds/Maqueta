@@ -1,0 +1,63 @@
+/*fonts
+
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Mono', ;
+font-family: 'Roboto Condensed', sans-serif;
+*/
+/*html*/
+
+
+html{
+	height:100%;
+}
+body{
+	 margin:0px; height:100%; font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4{font-family: 'Raleway', sans-serif; font-weight: extra-bold;}
+
+.bloque1 {
+	background:url('../images/fondo.png') center top; background-size: cover; height:100%; float:left; width:100%;
+}
+
+.bloque2{
+	background:yellow; height:200px; float:left; width:100%;
+}
+
+.bloqu3{
+	background:gray; height:200px; float:left; width:100%;
+}
+
+.container{
+	height:100px; margin:auto; width:1170px;  max-width:100%;
+}
+
+
+.bloque1 .container{
+	position:relative
+}
+.bloque1 #logo{
+	margin-top:70px; margin-left: 90px;
+}
+
+.bloque1 #logo img {
+	width: 25px; height: 32px;
+}
+
+.bloque1 #slider{
+	color:#FFF;  width: 394.5px; margin:auto;
+}
+.bloque1 #slider h1{
+	font-size: 42px; letter-spacing: 11px;
+	border-top:2px solid rgba(255,255,255,0.6); 
+	text-align: center; border-bottom:2px solid rgba(255,255,255,0.6); padding:12px 0; margin-top:150px;
+	font-weight: 800; position: relative;
+}
+.bloque1 #slider p{
+	font-family: 'Roboto Mono', ; font-size: 14.5px; font-weight: 400; color: rgba(255,255,255,0.6); text-align:center;
+}
+
+.bloque1 .menu{position:absolute; right:0px; list-style:none; margin:0px 65px; padding:0px; top:0px;}
+.bloque1 .menu .ico{border:2px solid rgba(255,255,255,0.5); height:30px; width:30px; }
+.bloque1 .menu .ico i{ height:2px; width:75%; background:rgba(255,255,255,0.5); float:left; margin:3px 14%; padding:0px;}
+.bloque1 .menu .ico i:first-child{margin-top:6px}
