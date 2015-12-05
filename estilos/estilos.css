@@ -150,7 +150,6 @@ p{
     float:left; 
     width:100%;
     background:#f6f6f6;
-    height: 100%;
 }
 #bloque3 .texto{
     color: #000000;
@@ -161,10 +160,9 @@ p{
 }
 
 #bloque3 .cuadros{
-    width: 21%;
-    padding-bottom : 21%; /* = width for a 1:1 aspect ratio */
+    width: 46%;
+    padding-bottom : 46%; /* = width for a 1:1 aspect ratio */
     margin:2%;
-    
 }
 
 #bloque3 .cuadros a{
@@ -199,7 +197,7 @@ p{
 #bloque4{
     float:left;
     width:100%;
-    height: 100%;
+    
     background:url(../images/fondo1.jpg) no-repeat;
     
 }
@@ -254,7 +252,7 @@ p{
 #bloque5{
     float:left;
     width:100%;
-    height: 100%;
+    
     background:#f6f6f6;
 }
 
@@ -266,12 +264,12 @@ p{
 }
 
 #bloque5 .container .cuadros{
-    width: 15%;
-    padding-bottom : 15%; /* = width for a 1:1 aspect ratio */
-    margin-left: 8%;
-    margin-top: 3%;
+    width: 21%;
+    padding-bottom : 21%; /* = width for a 1:1 aspect ratio */
+    margin: 2%;
 }
 
+#bloque5 .container #cuadro5.cuadros{width:46%; padding-bottom:21%;}
 
 #bloque5 .cuadros a{
     position:absolute;
@@ -399,4 +397,11 @@ p{
 
 
 
+@media (min-width: 768px) {
+	#bloque3 .cuadros{
+	    width: 21%;
+	    padding-bottom : 21%; /* = width for a 1:1 aspect ratio */
+	    margin:2%;
+	}
+}
 
